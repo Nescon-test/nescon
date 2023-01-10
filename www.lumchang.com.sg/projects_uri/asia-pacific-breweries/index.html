@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from www.lumchang.com.sg/projects_uri/asia-pacific-breweries/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Jan 2023 15:41:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, shrink-to-fit=no, user-scalable=yes">
+        <title>  Asia Pacific Breweries |  Property Management, Construction &amp; Interior Design Firm | Lum Chang</title>
+        <meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='http://www.google.com/' />
+<link rel="alternate" type="application/rss+xml" title="Property Management, Construction &amp; Interior Design Firm | Lum Chang &raquo; Feed" href="../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Property Management, Construction &amp; Interior Design Firm | Lum Chang &raquo; Comments Feed" href="../../comments/feed/index.html" />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.lumchang.com.sg\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='../../wp-includes/css/dist/block-library/style.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='../../wp-includes/css/classic-themes.min68b3.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='../../wp-content/plugins/contact-form-7/includes/css/styles42f0.css?ver=5.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcf7-redirect-script-frontend-css' href='../../wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min6a4d.css?ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.mina7a0.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="../../wp-json/index.html" /><link rel="alternate" type="application/json" href="../../wp-json/wp/v2/projects_uri/504.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='../../indexbc6e.html?p=504' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed685e.json?url=https%3A%2F%2Fwww.lumchang.com.sg%2Fprojects_uri%2Fasia-pacific-breweries%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embedf184?url=https%3A%2F%2Fwww.lumchang.com.sg%2Fprojects_uri%2Fasia-pacific-breweries%2F&amp;format=xml" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>        <!-- Programmer: Alyssa Pooja | LIVE date: 29 Nov 2022 -->
+        		                	<meta name="keywords" content="Property Management Agency Singapore, Construction Firm Singapore, Interior Design Firm Singapore, Commercial Property Management Singapore, Interior Design Services Singapore, Real Estate Management Singapore, Construction Services Singapore, Residential Construction Services Singapore"/>
+                        	<meta name="dcterms.rightsHolder" content="lumchang.com.sg – Lum Chang"/>
+		        
+	 
+<link rel="icon" type="image/x-icon" href="../../wp-content/themes/lumchang/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../../wp-content/themes/lumchang/css/plugins.css">
+<link rel="stylesheet" type="text/css" href="../../wp-content/themes/lumchang/css/style.css">
+<link rel="stylesheet" href="../../wp-content/themes/lumchang/style7839.css?v=1.2" type="text/css">
+<!-- jQuery (necessary JavaScript plugins) -->
+<script src="../../wp-content/themes/lumchang/js/jquery-1.12.4.min.js"></script>
+<script src="../../wp-content/themes/lumchang/js/plugin.min.js"></script>
+<script src="../../wp-content/themes/lumchang/js/main-script.js"></script>
+        		<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=G-4601DCHQBH"></script>
+        <script type="rocketlazyloadscript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-4601DCHQBH');
+        </script>
+		     
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=UA-250303205-1"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-250303205-1');
+</script>
+
+
+    </head>
+    
+    
+    <body data-rsssl=1 class="projects_uri-template-default single single-projects_uri postid-504">
+
+	<div id="wrapper">
+    	<header id="pageHeaderWrapper">
+            <div id="pageHeader">
+				<div class="headerTop">
+                	<div class="header-container">
+						<div class="logo">
+							    		
+		 <a href="../../index.html" >
+         	<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://www.lumchang.com.sg/wp-content/uploads/2022/09/Lum-Chang-Logo.png"><noscript><img src="../../wp-content/uploads/2022/09/Lum-Chang-Logo.png" alt=""></noscript>
+         </a>
+              
+						</div>
+						<div class="headerTopRight">
+							<div class="nav-wrapper">
+                                <div class="nav-container">
+                                    <nav class="nav">
+                                        <ul id="top-menu" class="main-menu nav_pro"><li id="menu-item-196" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-196"><a href="../../index.html"><span>Home</span></a></li>
+<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-197"><a href="../../about-us/index.html"><span>About Us</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a href="../../about-us/index.html#CorporateProfile"><span>Corporate Profile</span></a></li>
+	<li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a href="../../about-us/index.html#VisionMissionAndCoreValues"><span>Vision, Vision, Core Values</span></a></li>
+	<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="../../about-us/significant-milestones/index.html"><span>Significant Milestones</span></a></li>
+	<li id="menu-item-283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-283"><a href="../../about-us/our-board-management/board-of-directors/index.html"><span>Our Board &#038; Management</span></a></li>
+	<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="../../about-us/significant-awards-accreditation/index.html"><span>Significant Awards &amp; Accreditation</span></a></li>
+	<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="../../about-us/partners/index.html"><span>Partners</span></a></li>
+	<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="../../about-us/downloads/index.html"><span>Downloads</span></a></li>
+</ul>
+</li>
+<li id="menu-item-302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-302"><a href="../../property/index.html"><span>Property</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-868"><a href="../../project_category/singapore/index.html"><span>Singapore</span></a></li>
+	<li id="menu-item-869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-869"><a href="../../project_category/malaysia/index.html"><span>Malaysia</span></a></li>
+	<li id="menu-item-867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-867"><a href="../../project_category/united-kingdom/index.html"><span>United Kingdom</span></a></li>
+	<li id="menu-item-866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-866"><a href="../../project_category/china/index.html"><span>China</span></a></li>
+</ul>
+</li>
+<li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-205"><a href="../../construction/index.html"><span>Construction</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-852"><a href="../../project_category/civil-and-infrastructure/index.html"><span>Civil &#038; Infrastructure</span></a></li>
+	<li id="menu-item-853" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-853"><a href="../../project_category/commercial/index.html"><span>Commercial</span></a></li>
+	<li id="menu-item-854" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-854"><a href="../../project_category/hospital/index.html"><span>Hospital</span></a></li>
+	<li id="menu-item-855" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-855"><a href="../../project_category/hotels-leisure/index.html"><span>Hotel &#038; Leisure</span></a></li>
+	<li id="menu-item-856" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-856"><a href="../../project_category/industrial/index.html"><span>Industrial</span></a></li>
+	<li id="menu-item-857" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-857"><a href="../../project_category/institutional/index.html"><span>Institution</span></a></li>
+	<li id="menu-item-858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-858"><a href="../../project_category/mixed-development/index.html"><span>Mixed Development</span></a></li>
+	<li id="menu-item-859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-859"><a href="../../project_category/residential/index.html"><span>Residential</span></a></li>
+</ul>
+</li>
+<li id="menu-item-301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-301"><a href="../../interior/index.html"><span>Interior</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-875" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-875"><a href="../../project_category/commercial-offices/index.html"><span>Commercial Offices</span></a></li>
+	<li id="menu-item-876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876"><a href="../../project_category/conservation-works/index.html"><span>Conservation Works</span></a></li>
+	<li id="menu-item-877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-877"><a href="../../project_category/food-beverage/index.html"><span>Food &#038; Beverage</span></a></li>
+	<li id="menu-item-878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-878"><a href="../../project_category/hotels-resorts/index.html"><span>Hotels &#038; Resorts</span></a></li>
+	<li id="menu-item-879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-879"><a href="../../project_category/residential-interior/index.html"><span>Residential</span></a></li>
+	<li id="menu-item-881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-881"><a href="../../project_category/transportation-hubs/index.html"><span>Transportation Hubs</span></a></li>
+</ul>
+</li>
+<li id="menu-item-1273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1273"><a href="https://investor.lumchang.com.sg/home.html"><span>Investor Relations</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1274"><a href="https://investor.lumchang.com.sg/chairman_statement.html"><span>Corporate Information</span></a></li>
+	<li id="menu-item-1275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1275"><a href="https://investor.lumchang.com.sg/financials.html/year/-1"><span>Financial Information</span></a></li>
+	<li id="menu-item-1276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1276"><a href="https://investor.lumchang.com.sg/agm.html"><span>AGM</span></a></li>
+	<li id="menu-item-1277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1277"><a href="https://investor.lumchang.com.sg/corporate_governance.html"><span>Corporate Governance</span></a></li>
+	<li id="menu-item-1278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1278"><a href="https://investor.lumchang.com.sg/announcements.html"><span>Announcements</span></a></li>
+	<li id="menu-item-1279" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1279"><a href="https://investor.lumchang.com.sg/stock_fundamentals.html"><span>Stock Information</span></a></li>
+	<li id="menu-item-1280" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1280"><a href="https://investor.lumchang.com.sg/dividends.html"><span>Dividends</span></a></li>
+	<li id="menu-item-1281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1281"><a href="https://investor.lumchang.com.sg/email_alerts.html"><span>Information Request</span></a></li>
+</ul>
+</li>
+<li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-299"><a target="_blank" rel="noopener" href="../../sustainability/our-sustainability-story/index.html#new_tab"><span>Sustainability</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-763"><a href="../../sustainability/environment/index.html"><span>Environment</span></a></li>
+	<li id="menu-item-762" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-762"><a href="../../sustainability/innovation-excellence/index.html"><span>Innovation &#038; Excellence</span></a></li>
+	<li id="menu-item-761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-761"><a href="../../sustainability/workplace-health-safety/index.html"><span>Workplace Health &#038; Safety</span></a></li>
+	<li id="menu-item-760" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-760"><a href="../../sustainability/our-people-our-assets/index.html"><span>Our People, Our Assets</span></a></li>
+	<li id="menu-item-759" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759"><a href="../../sustainability/social-responsibility/index.html"><span>Social Responsibility</span></a></li>
+</ul>
+</li>
+<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a href="../../careers/index.html"><span>Careers</span></a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="../../contact-us/index.html"><span>Contact Us</span></a></li>
+</ul>                                    </nav>
+                                </div>
+                            </div>
+                            <div class="headerGroupContainer">
+                                <ul class="headerTopLinks">
+                                    <li class="header-search-menu">
+                                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#quicksearch">
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Search" class="showicon" data-lazy-src="../../wp-content/themes/lumchang/images/search-icon.png"><noscript><img src="../../wp-content/themes/lumchang/images/search-icon.png" alt="Search" class="showicon"></noscript>
+                                            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Search" class="hiddenicon" data-lazy-src="../../wp-content/themes/lumchang/images/search-icon2.png"><noscript><img src="../../wp-content/themes/lumchang/images/search-icon2.png" alt="Search" class="hiddenicon"></noscript>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    	</header>
+        
+        <div class="main-content-wrapper">
+ 
+                <div class="bannerWrapper">
+                <div class="inner-banner">
+                    <figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="About Us" data-lazy-src="../../wp-content/uploads/2022/11/Construction-Banner.png"><noscript><img src="../../wp-content/uploads/2022/11/Construction-Banner.png" alt="About Us"></noscript></figure>
+                    <div class="inner_banner_caption">
+                        <div class="captionWrapper container">
+                            <div class="captionContainer">
+                                <div class="captionContainerInner">
+                                    <h1 class="innerBannerHeading1">Asia Pacific Breweries</h1>
+                                </div>
+                                <div class="breadcrumb-container">
+                                    <ul class="">
+                                        <!-- Breadcrumb NavXT 7.1.0 -->
+<li class="home"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Property Management, Construction &amp; Interior Design Firm | Lum Chang." href="../../index.html" class="home" ><span property="name">Home</span></a><meta property="position" content="1"></span></li>
+<li class="taxonomy project_category"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Construction Project Category archives." href="../../project_category/construction/index.html" class="taxonomy project_category" ><span property="name">Construction</span></a><meta property="position" content="2"></span></li>
+<li class="taxonomy project_category"><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Industrial Project Category archives." href="../../project_category/industrial/index.html" class="taxonomy project_category" ><span property="name">Industrial</span></a><meta property="position" content="3"></span></li>
+<li class="post post-projects_uri current-item"><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-projects_uri current-item">Asia Pacific Breweries</span><meta property="url" content="index.html"><meta property="position" content="4"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        
+       		<div class="main-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="csm-projectGalleryContainer">
+                                <div class="csm-projectGalleryBox">
+                                    <div class="csm-projectImgSlider">
+                                    	  									<div class="csm-projectSlideItem">
+                                            <div class="csm-projectImageItem">
+                                                <figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/asia-pacific.jpg"><noscript><img src="../../wp-content/uploads/2022/09/asia-pacific.jpg" alt=""></noscript></figure>
+                                            </div>
+                                            <a class="fa fa-expand" href="../../wp-content/uploads/2022/09/asia-pacific.jpg" data-fancybox="gallery"></a>
+                                        </div>
+                                    									<div class="csm-projectSlideItem">
+                                            <div class="csm-projectImageItem">
+                                                <figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6195.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6195.jpg" alt=""></noscript></figure>
+                                            </div>
+                                            <a class="fa fa-expand" href="../../wp-content/uploads/2022/09/IMG_6195.jpg" data-fancybox="gallery"></a>
+                                        </div>
+                                    									<div class="csm-projectSlideItem">
+                                            <div class="csm-projectImageItem">
+                                                <figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6214.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6214.jpg" alt=""></noscript></figure>
+                                            </div>
+                                            <a class="fa fa-expand" href="../../wp-content/uploads/2022/09/IMG_6214.jpg" data-fancybox="gallery"></a>
+                                        </div>
+                                    									<div class="csm-projectSlideItem">
+                                            <div class="csm-projectImageItem">
+                                                <figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6168.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6168.jpg" alt=""></noscript></figure>
+                                            </div>
+                                            <a class="fa fa-expand" href="../../wp-content/uploads/2022/09/IMG_6168.jpg" data-fancybox="gallery"></a>
+                                        </div>
+                                    									<div class="csm-projectSlideItem">
+                                            <div class="csm-projectImageItem">
+                                                <figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6174.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6174.jpg" alt=""></noscript></figure>
+                                            </div>
+                                            <a class="fa fa-expand" href="../../wp-content/uploads/2022/09/IMG_6174.jpg" data-fancybox="gallery"></a>
+                                        </div>
+                                                                        </div>
+                                </div>
+                                <div class="thumbSliderBox">
+                                    <div class="csm-projectThumbSlider clearfix">
+                                    	                                          <div class="thumbSlideItem">
+                                            <div class="csm-projectThumbItem">
+                                            	<figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/asia-pacific.jpg"><noscript><img src="../../wp-content/uploads/2022/09/asia-pacific.jpg" alt=""></noscript></figure>
+                                            </div>
+                                        </div>
+                                                                                <div class="thumbSlideItem">
+                                            <div class="csm-projectThumbItem">
+                                            	<figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6195.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6195.jpg" alt=""></noscript></figure>
+                                            </div>
+                                        </div>
+                                                                                <div class="thumbSlideItem">
+                                            <div class="csm-projectThumbItem">
+                                            	<figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6214.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6214.jpg" alt=""></noscript></figure>
+                                            </div>
+                                        </div>
+                                                                                <div class="thumbSlideItem">
+                                            <div class="csm-projectThumbItem">
+                                            	<figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6168.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6168.jpg" alt=""></noscript></figure>
+                                            </div>
+                                        </div>
+                                                                                <div class="thumbSlideItem">
+                                            <div class="csm-projectThumbItem">
+                                            	<figure><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/IMG_6174.jpg"><noscript><img src="../../wp-content/uploads/2022/09/IMG_6174.jpg" alt=""></noscript></figure>
+                                            </div>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="csm-project-details-box">
+                                <h6 class="subTitle">Industrial</h6>
+                                <div class="pageTitle"><h2>Asia Pacific Breweries</h2></div>
+                                
+                                <h6>PROJECT DESCRIPTION</h6>
+<ul class="ul-listing">
+<li><span style="font-size: 15pt;">Construction of a 43,000 square-metre plant, 28 metre high multi-cellular malt silo and brew house, administration building, and ancillary and E&amp;M works.</span></li>
+<li><span style="font-size: 15pt;">Sitting on nine hectares of land, Asia Pacific Breweries is one of the most advanced breweries in the region using the latest brewery equipment and computer technology.</span></li>
+</ul>
+<h6>CLIENT</h6>
+<p>Asia Pacific Breweries (S) Pte Ltd/ Malayan Breweries (S) Pte Ltd</p>
+<h6>LOCATION</h6>
+<p>Jalan Ahmad Ibrahim, Singapore</p>
+<h6>COMPLETION YEAR</h6>
+<p>1992</p>
+                                                                
+                                                                <div class="csm-project-quantity-container mb10">
+                                    <div class="row align-items-center">
+                                    	                                          										<div class="col-auto mt10 mb10">
+                                            <div class="viewProductBtn"><a href="../../project_category/industrial/index.html">VIEW INDUSTRIAL PROJECTS</a></div>
+                                            <!--<div class="viewProductBtn"><button type="button">VIEW COMMERCIAL PROJECTS</button></div>-->
+                                        </div>
+                                        										                                         										<div class="col-auto mt10 mb10">
+                                            <div class="viewProductBtn"><a href="../../construction/index.html">VIEW OUR PORTFOLIO</a></div>
+                                            <!--<div class="viewProductBtn"><button type="button">VIEW COMMERCIAL PROJECTS</button></div>-->
+                                        </div>
+                                        										                                    </div>
+                                </div>
+                                                                
+                                <ul class="csm-project-share">
+                                    <li>Share to:</li>
+                                    <li><a href="http://www.facebook.com/sharer.php?u=https://www.lumchang.com.sg/projects_uri/asia-pacific-breweries/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/share?url=https://www.lumchang.com.sg/projects_uri/asia-pacific-breweries/&amp;text=Asia%20Pacific%20Breweries" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="../../../in.pinterest.com/pin/create/button/index9bee.html?url=https://www.lumchang.com.sg/projects_uri/asia-pacific-breweries/&amp;media=https://www.lumchang.com.sg/wp-content/uploads/2022/09/asia-pacific.jpg" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="mailto:?Subject=Asia Pacific Breweries=https://www.lumchang.com.sg/projects_uri/asia-pacific-breweries/"><i class="fa fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+            
+ 
+        </div>
+    </div>
+
+	<!-- Footer -->
+    <footer class="footer-wrapper">
+		<div class="footer-top">
+			<div class="footer container">
+                <div class="row">
+                    <div class="ftcol ftcol1">
+                        <div class="footer-logo">
+                        	     		
+		 <a href="../../index.html">
+         	<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="../../wp-content/uploads/2022/09/Lum-Chang-Logo2.png" ><noscript><img src="../../wp-content/uploads/2022/09/Lum-Chang-Logo2.png" alt="" ></noscript>
+         </a>
+                                     </div>
+                                            </div>
+                    <div class="ftcol ftcol2">
+                        <div class="footer-head">Sitemap</div>
+						<ul id="top-menu1" class="footer-nav twoCol nav_pro"><li id="menu-item-208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-208"><a href="../../index.html">Home</a></li>
+<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a href="../../about-us/index.html">About Us</a></li>
+<li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a href="../../property/index.html">Property</a></li>
+<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211"><a href="../../construction/index.html">Construction</a></li>
+<li id="menu-item-312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-312"><a href="../../interior/index.html">Interior</a></li>
+<li id="menu-item-1264" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1264"><a href="https://investor.lumchang.com.sg/home.rev">Investor Relations</a></li>
+<li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a target="_blank" rel="noopener" href="../../sustainability/our-sustainability-story/index.html#new_tab">Sustainability</a></li>
+<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="../../careers/index.html">Careers</a></li>
+<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="../../contact-us/index.html">Contact Us</a></li>
+</ul>                    </div>
+                    <div class="ftcol ftcol3">
+                        <div class="footer-head">Contact Information</div>
+                        <div class="footer-contact-info-box">
+                        	                            <div class="footer-location">
+                                <p>14 Kung Chong Road, #08-01 <br> Lum Chang Building, Singapore 159150</p>
+                            </div>
+                                                                                    <div class="footer-phone-number">
+                                <p><a href="tel:(65) 6273 8888">(65) 6273 8888</a></p>
+                            </div>
+                                                                                    <div class="footer-email-address">
+                                <p><a href="mailto:lch@lumchang.com.sg">lch@lumchang.com.sg</a></p>
+                            </div>
+                            						</div>
+                    </div>
+			    </div>
+            </div>
+		</div>
+		<div class="clear"></div>
+		
+		<div class="footer-bottom">
+			<div class="footer container">
+                <div class="row align-items-center">
+                    <div class="fbcol fbcol1">
+                        <ul id="top-menu2" class="footer-bottom-nav nav_pro"><li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-216"><a href="../../terms-conditions/index.html">Terms &amp; Conditions</a></li>
+<li id="menu-item-218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-218"><a href="#">|</a></li>
+<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="../../privacy-policy/index.html">Privacy Policy</a></li>
+</ul>                    </div>
+                    <div class="fbcol fbcol2">
+                        <div class="copyright">Copyright &copy; 2023 Lum Chang. All Rights Reserved.</div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</footer>
+    
+    <!-- Search Pop Up -->
+	<div class="modal fade quick-search" id="quicksearch">
+    	<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<form action="https://www.lumchang.com.sg/" method="get" enctype="multipart/form-data">
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+					<div class="input-group">
+						<input class="form-control" type="text" name="s" placeholder="Search...">
+						<span class="input-group-btn">
+							<button class="btn-1" type="submit"><span class="fa fa-search"></span></button>
+						</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<script type="rocketlazyloadscript" data-minify="1" src="../../wp-content/cache/min/1/images/js_ir_json2d79.js?ver=1669781096"></script>
+
+<script type="rocketlazyloadscript">
+  function news_json_callback(m) {
+  var i;
+  for (i = 0; i < m.result.html.length; i++) {
+   var e = document.getElementById(m.result.html[i].id);
+   if (e) e.innerHTML = m.result.html[i].content;
+ }
+}
+
+$(document).ready(function(){
+  ir_jsonGetData("//investor.lumchang.com.sg/includes/integration_external_stock_quotes_jsonv2.json", "stock_quote_json", "stock-info-container", "ir_jsonIntegrate");
+});
+</script>
+
+
+
+
+
+
+    
+      
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/swv/js/index2d79.js?ver=1669781096' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.lumchang.com.sg\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/index2d79.js?ver=1669781096' id='contact-form-7-js'></script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/www.lumchang.com.sg\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../wp-content/cache/min/1/wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe2d79.js?ver=1669781096' id='wpcf7-redirect-script-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='google-invisible-recaptcha-js-before'>
+var renderInvisibleReCaptcha = function() {
+
+    for (var i = 0; i < document.forms.length; ++i) {
+        var form = document.forms[i];
+        var holder = form.querySelector('.inv-recaptcha-holder');
+
+        if (null === holder) continue;
+		holder.innerHTML = '';
+
+         (function(frm){
+			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+            var holderId = grecaptcha.render(holder,{
+                'sitekey': '6Lc_mpciAAAAAOA-YIvFnuz7soAodh7oXQpryPCq', 'size': 'invisible', 'badge' : 'bottomright',
+                'callback' : function (recaptchaToken) {
+					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
+					 HTMLFormElement.prototype.submit.call(frm);
+                },
+                'expired-callback' : function(){grecaptcha.reset(holderId);}
+            });
+
+			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
+				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
+					clickEvt.preventDefault();
+					grecaptcha.execute(holderId);
+				});
+			}
+			else
+			{
+				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
+			}
+
+
+        })(form);
+    }
+};
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' async defer src='../../../www.google.com/recaptcha/api89ae.js?onload=renderInvisibleReCaptcha&amp;render=explicit' id='google-invisible-recaptcha-js'></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../wp-content/cache/min/1/wp-content/plugins/page-links-to/dist/new-tab2d79.js?ver=1669781096' id='page-links-to-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../../www.google.com/recaptcha/apib78b.js?render=6LfYtnghAAAAAKuRIUyyK6vCB_b-KN2a_GsaYP9C&amp;ver=3.0' id='google-recaptcha-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='../../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LfYtnghAAAAAKuRIUyyK6vCB_b-KN2a_GsaYP9C","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='../../wp-content/cache/min/1/wp-content/plugins/contact-form-7/modules/recaptcha/index2d79.js?ver=1669781096' id='wpcf7-recaptcha-js'></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="../../wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+        <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		
+		jQuery("#menu-item-197 .sub-menu a").addClass("scrollToSectionMenu");
+		jQuery("#top-menu li.current-menu-item").addClass("selected");
+		jQuery("#top-menu li.current-menu-ancestor").addClass("selected");
+		jQuery("#top-menu li.current_page_item").addClass("selected");
+		jQuery("#top-menu li.current_page_ancestor").addClass("selected");
+		jQuery("#top-menu li.current-page-ancestor").addClass("selected");
+		jQuery("#top-menu li.current-post-ancestor ").addClass("selected");
+		jQuery("#top-menu li.menu-item-has-children ul").addClass("submenu");
+
+
+		jQuery("#mega-menu-topmenu li.mega-current-menu-item").addClass("selected");
+		jQuery("#mega-menu-topmenu li.mega-current-menu-ancestor").addClass("selected");
+		jQuery("#mega-menu-topmenu li.mega-current_page_item").addClass("selected");
+		jQuery("#mega-menu-topmenu li.mega-current_page_ancestor").addClass("selected");
+		jQuery("#mega-menu-topmenu li.mega-current-page-ancestor").addClass("selected");
+		jQuery("#mega-menu-topmenu li.mega-current-post-ancestor ").addClass("selected");
+		jQuery("#mega-menu-topmenu li.menu-item-has-children ").addClass("has-sub");
+	
+		jQuery("#FooterNav1 li.current-menu-item").addClass("selected");
+		jQuery("#FooterNav1 li.current-menu-ancestor").addClass("selected");
+		jQuery("#FooterNav1 li.current_page_item").addClass("selected");
+		jQuery("#FooterNav1 li.current_page_ancestor").addClass("selected");
+		jQuery("#FooterNav1 li.current-page-ancestor").addClass("selected");
+		
+		jQuery("#FooterNav2 li.current-menu-item").addClass("selected");
+		jQuery("#FooterNav2 li.current-menu-ancestor").addClass("selected");
+		jQuery("#FooterNav2 li.current_page_item").addClass("selected");
+		jQuery("#FooterNav2 li.current_page_ancestor").addClass("selected");
+		jQuery("#FooterNav2 li.current-page-ancestor").addClass("selected");
+
+		jQuery("#SideNav > li.cat-item").addClass("has-sub");
+		jQuery("#SideNav > li ul.children").addClass("sub");
+		jQuery(".sidenav > li.current-cat").addClass("selected");
+		jQuery(".sidenav li.current-cat-parent").addClass("selected");
+
+		jQuery(".nav_pro li.current-menu-ancestor").addClass("selected");
+		jQuery(".nav_pro li.current_page_item").addClass("selected");
+		jQuery(".nav_pro li.current_page_ancestor").addClass("selected");
+		jQuery(".nav_pro li.current-page-ancestor").addClass("selected");
+		jQuery(".nav_pro li.current-cat").addClass("selected");
+		jQuery(".nav_pro li.current-post-ancestor").addClass("selected");
+		jQuery(".nav_pro li.current_page_item > ul").addClass("open");
+		jQuery(".ps-list--sidebar li.page_item_has_children").addClass("has-sub");
+		jQuery(".ps-list--sidebar li > ul.children").addClass("ps-list--right");
+		jQuery(".ps-list--sidebar li.has-sub ul.children li ul.children").removeClass("ps-list--right");
+		jQuery(".ps-list--sidebar li.has-sub ul.children li ul.children").addClass("ps-list__sub");
+		jQuery('#mainTitle').each(function(){//alert('here'); // Last Word
+		
+		
+		
+		
+		
+   var $this = jQuery(this), text=$this.text().trim(), words = text.split(/\s+/);
+   var lastWord = words.pop();
+   words.push('<strong>' + lastWord + '</strong>');
+   $this.html(words.join(' '));
+}); 
+jQuery('#mainTitleF').html(function(){	
+		var text = jQuery(this).text().split(' ');
+		var first = text.shift();
+		return (text.length > 0 ? '<span>'+first+'</span> ' : first) + text.join(" ");
+});
+ 		</script>
+      
+        
+        
+	</body>
+<!-- Mirrored from www.lumchang.com.sg/projects_uri/asia-pacific-breweries/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Jan 2023 15:41:25 GMT -->
+</html>
+
+
+
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+  jQuery("#top-menu #menu-item-205").addClass("selected");
+  jQuery("#top-menu1 #menu-item-211").addClass("selected");
+ </script>
+ 
+ 
+
+
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1673355546 -->
