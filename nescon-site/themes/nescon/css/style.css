@@ -4509,7 +4509,7 @@ ul.csm-project-share li a:hover {
 	content: "\f105";
 	}
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
 	.hide-sm-screen { display: block !important; }
     }
 
@@ -6372,7 +6372,7 @@ textarea {
     ul.footer-nav li { margin-bottom: 10px; }
     .footer-location, .footer-phone-number, .footer-email-address { margin-bottom: 15px; }
     .footer-bottom { padding: 10px 0px; }
-    .footer-logo a { max-width: 227px; max-height: 40px; }
+    .footer-logo a { max-width: 227px; max-height: 20px; }
     .footer-location, .footer-phone-number { background-position: 0px 3px; }
     .footer-email-address { background-position: 0px 4px; }
     .value-content-box p { margin-bottom: 16px; }
@@ -6516,7 +6516,7 @@ textarea {
     .accordion-item + .accordion-item { margin-top: 15px; }
 	}
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 	}
 	
 @media (max-width: 650px) {
