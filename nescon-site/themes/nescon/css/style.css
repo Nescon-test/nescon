@@ -5561,6 +5561,11 @@ ol.ol-listing li ul.ul-listing li {
     max-height:5px;
 		padding-bottom: 125px;
 	}
+.intro-pic-container figure {
+	width: 70%;
+	padding-bottom: 10px;
+	}
+
 }
 /* Footer Head */
 	
@@ -6523,6 +6528,7 @@ textarea {
 	}
 	
 @media (max-width: 800px) {
+
 	}
 
 /* Landscape phones and portrait tablets */
