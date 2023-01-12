@@ -5555,6 +5555,13 @@ ol.ol-listing li ul.ul-listing li {
 .footer-logo img {display: none !important;}
 }
 
+@media only screen and (max-width: 960px) {
+	.logo img {
+		  max-width:640px;
+    max-height:118px;
+		padding-bottom: 0px;
+	}
+}
 /* Footer Head */
 	
 .footer-head {
