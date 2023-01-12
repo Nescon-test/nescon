@@ -4509,11 +4509,11 @@ ul.csm-project-share li a:hover {
 	content: "\f105";
 	}
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 	.hide-sm-screen { display: block !important; }
     }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1226.88px) {
 	.hide-sm-screen { display: none; }
 	.btn-control { display: block; }
     .accordion-btn-wrap + .accordion-btn-wrap { display: none !important; }
@@ -6421,7 +6421,7 @@ textarea {
     .csm-projects-slider .slick-next, .related-product-container .csm-projects-slider .slick-next { right: 0px; }
 	}
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1226.88px) {
     .banner_caption .captionContainer .bannerHeading1 { max-width: 510px; }
     .banner_caption .captionContainer .bannerHeading1, .pageTitle h1, .pageTitle h2, .inner_banner_caption .captionContainer .innerBannerHeading1 { font-size: 36px; }
     .element-list-container .row { margin-bottom: 40px; }
@@ -6449,7 +6449,7 @@ textarea {
     }
 
 /* Portrait tablets and medium desktops */
-@media (max-width: 991.98px) {
+@media (max-width: 1226.88px) {
     .bannerWrapper, .thank-you-container { background: #141414; padding: 0px; width: auto; margin: 0px auto; }
     .banner_caption, .inner_banner_caption, .thank-you-content-area { position: relative; top: auto; left: auto; padding: 0px; }
     .banner_caption .captionWrapper { padding: 30px 15px 70px; background: transparent; text-align: center; }
@@ -6488,11 +6488,11 @@ textarea {
     .construction-pic-container, .construction-text-container { padding: 0px; }
 	}
 	
-@media (max-width: 800px) {
+@media (max-width: 1226.88px) {
 	}
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767.98px) {
+@media (max-width: 1226.88px {
     .container, .header-container, .wide-container, .banner_caption .captionWrapper, .thank-you-content-area .captionWrapper, .inner_banner_caption, .intro-container, .projects-container, .banner_caption .captionWrapper, .intro-text-container, .stock-quote-text-container, .joinus-text-container, .value-content-box { padding-left: 15px; padding-right: 15px; }
     h1, .pageTitle h1, .pageTitle h2 { font-size: 30px !important; letter-spacing: 0px !important; }
 	h2 { font-size: 27px !important; letter-spacing: 0px !important; }
@@ -6516,13 +6516,13 @@ textarea {
     .accordion-item + .accordion-item { margin-top: 15px; }
 	}
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 	}
 	
-@media (max-width: 650px) {
+@media (max-width: 1226.88px) {
 	}
 	
-@media (max-width: 575.98px) {
+@media (max-width: 1226.88px) {
     .inner-banner figure { height: 150px; }
     .csm-project-item { width: 100%; }
     .woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 100% !important; }
@@ -6536,7 +6536,7 @@ textarea {
     .accordion-header a { font-size: 14px; }
 	}
 
-@media (max-width: 479.98px) {
+@media (max-width: 1226.88px) {
     .logo { width: 170px; height: 30px; }
     .nav-wrapper { margin: 10px auto; }
     .headerGroupContainer { margin-top: 18px; }
@@ -6546,7 +6546,7 @@ textarea {
     .sitemap-listing > .row .col-auto { flex-shrink: 0; width: 100%; max-width: 100%; }
 	}
 	
-@media (max-width: 399.98px) {
+@media (max-width: 1226.88px) {
     .inner-banner figure { height: 100px; }
     .feature-item { width: 100%; }
     .team-member-info-container-outer .team-member-pic-container { width: 78px; height: 100px; }
