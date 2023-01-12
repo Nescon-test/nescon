@@ -5557,8 +5557,8 @@ ol.ol-listing li ul.ul-listing li {
 
 @media only screen and (max-width: 960px) {
 	.logo img {
-		  max-width:640px;
-    max-height:118px;
+		  max-width:50px;
+    max-height:50px;
 		padding-bottom: 0px;
 	}
 }
