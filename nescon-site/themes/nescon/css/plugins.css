@@ -17122,7 +17122,8 @@ fieldset:disabled .btn {
   left: 10px;
 }
 .carousel__button.is-next {
-  right: 50px;
+  right: 10px;
+
 }
 .carousel__button[disabled] {
   cursor: default;
