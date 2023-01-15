@@ -179,6 +179,23 @@ body {
   -webkit-text-size-adjust: 100%;
   background: #ffffff url(../images/logoloader.png) center center no-repeat;
   overflow-x: hidden;
+  animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 ::selection {
@@ -430,11 +447,6 @@ body,
   transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -webkit-transition: opacity 1s ease-in-out;
-}
-@keyframes beat {
-  to {
-    transform: scale(1.4);
-  }
 }
 
 .logo img:hover {
