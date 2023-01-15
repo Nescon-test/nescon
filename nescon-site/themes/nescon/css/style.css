@@ -2819,6 +2819,15 @@ hr.hrline {
   padding-bottom: 20px;
 }
 
+.team-member-company {
+  position: relative;
+  display: block;
+  color: #666666;
+  font-size: 12px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
 .team-member-info-container p {
   margin: 0px auto 20px;
 }
