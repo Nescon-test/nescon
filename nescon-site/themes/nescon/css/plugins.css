@@ -17123,7 +17123,6 @@ fieldset:disabled .btn {
 }
 .carousel__button.is-next {
   right: 10px;
-
 }
 .carousel__button[disabled] {
   cursor: default;
@@ -17664,10 +17663,10 @@ body:not(.is-using-mouse) .fancybox__container :focus {
   border-radius: var(--fancybox-thumbs-border-radius, 4px);
 }
 .fancybox__toolbar {
-  position: absolute;
-  top: 0;
-  right: 10;
-  left: 0;
+  position: static;
+  margin-right: 50px;
+  right: 0;
+  left: 10;
   z-index: 20;
   background: linear-gradient(
     to top,
