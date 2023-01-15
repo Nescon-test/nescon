@@ -16869,13 +16869,8 @@ fieldset:disabled .btn {
 /**===========================================================================================================================*/
 .slick-loading .slick-list {
   background: #fff url("../images/logoloader.png") center center no-repeat;
-  animation: beat 0.25s infinite alternate;
 }
-@keyframes beat {
-  to {
-    transform: scale(1.4);
-  }
-}
+
 @font-face {
   font-family: slick;
   font-weight: 400;
