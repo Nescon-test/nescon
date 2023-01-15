@@ -177,7 +177,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
-  background: #ffffff url(../images/ajax-loader.gif) center center no-repeat;
+  background: #ffffff url(../images/logoloader.png) center center no-repeat;
   overflow-x: hidden;
 }
 
@@ -424,8 +424,24 @@ body,
   display: block;
   height: 155px;
   width: 100px;
+  opacity: 1;
   padding-bottom: 50%;
   padding-left: 10px;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
+}
+
+.logo img:hover {
+  opacity: 0.8;
+  transition: opacity 0.55s ease-in-out;
+  -moz-transition: opacity 0.55s ease-in-out;
+  -webkit-transition: opacity 0.55s ease-in-out;
 }
 
 /* Header Top Right Container */
@@ -7021,7 +7037,7 @@ textarea {
   }
   .headerTopRight {
     left: 290px;
-    right: 30px;
+    right: 90px;
   }
   .nav > ul > li > a {
     padding: 25px 15px;
