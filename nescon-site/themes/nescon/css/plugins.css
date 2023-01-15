@@ -16868,7 +16868,7 @@ fieldset:disabled .btn {
 /* Slick Theme Version: 1.8.1 */
 /**===========================================================================================================================*/
 .slick-loading .slick-list {
-  background: #fff url("../images/logoloader.gif") center center no-repeat;
+  background: #fff url("../images/logoloader.png") center center no-repeat;
 }
 
 @font-face {
