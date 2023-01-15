@@ -182,7 +182,7 @@ body {
   animation: zoom-in-zoom-out 2s ease-out infinite;
 }
 
-@keyframes beat {
+@keyframes zoom-in-zoom-out {
   to {
     transform: scale(1.4);
   }
