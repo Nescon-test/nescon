@@ -181,8 +181,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
 ::selection {
   background: #666666; /* Safari */
   color: #ffffff;
