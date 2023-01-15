@@ -2714,6 +2714,10 @@ hr {
   padding: 0px 0px 50px;
   border-bottom: 1px solid #707070;
 }
+.row #rowmove {
+  margin-left: -400px;
+  padding-left: 200px;
+}
 
 .team-member-item:last-child {
   margin: 0px;
@@ -2741,8 +2745,14 @@ hr {
 
 .team-member-item-inner .row {
   align-items: center;
+  margin-left: 100px;
 }
 
+hr.hrline {
+  position: relative;
+  margin-left: -40px;
+  border-width: 2px;
+}
 .team-member-pic-container {
   position: relative;
   display: block;
@@ -5804,6 +5814,12 @@ ol.ol-listing li ul.ul-listing li {
   .intro-pic-container figure {
     width: 70%;
     padding-bottom: 10px;
+  }
+
+  .team-member-item-inner .row {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 /* Footer Head */
