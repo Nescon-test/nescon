@@ -476,6 +476,6 @@ td:nth-child(2) {
   td:nth-child(2) {
     padding-left: 10px;
     font-family: sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
   }
 }
